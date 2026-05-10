@@ -30,9 +30,9 @@ Une entreprise souhaite prédire le profit d'une commande en prenant en compte l
 
 -Pour les deux modèles on a un RMSE qui est très élevé ce qui est indicateur d'un mauvais modèle car nous savons que plus petit un RMSE est , meilleur un modèle est.
 
-A l'issu de cette analyse , nous avons mit en place une interface Gradio qui permet d'utiliser le modèle mis en place. 
-Je joins ci-après le lien de l'interface graphique : https://huggingface.co/spaces/2903paule/Prediction_profit
-
 -Le MAE aussi traduit l'écart entre les valeurs réelles et les valeurs prédites  les deux MAE observées pour nos modèles sont très grands ce qui met en lumière une énorme différence dans les prédictions.
 
 Après avoir mieux observé nos données , nous avons compris que les modèles n'étaient pas bons car les variables explicatives , n'expliquaient pas bien le modèle : aucune n'a une bonne corrélation avec la variable Profit.
+
+A l'issu de cette analyse , nous avons mit en place une interface Gradio qui permet d'utiliser le modèle mis en place. 
+Je joins ci-après le lien de l'interface graphique : https://huggingface.co/spaces/2903paule/Prediction_profit
